@@ -17,6 +17,7 @@ h1{
   font-size: 20px;
   background-color: #444;
   color: #fff;
+  opacity: 0.9;
 }
 .question{
   font-size: 45px;

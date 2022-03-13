@@ -17,7 +17,8 @@
 
 .navbar .navbar-nav .active > .nav-link {
     color: black; 
-    border-bottom: 4px solid; color: black
+    border-bottom: 4px solid; color: black;
+    padding-bottom: 0px;
 }
 
 .navbar .container {
