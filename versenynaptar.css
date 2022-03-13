@@ -24,7 +24,7 @@ body {
     width: 60px;
     position: absolute;
     left: 400px;
-    margin-top: 23px;
+    margin-top: 20px;
     border: 1px solid; color: black
 }
 
@@ -37,7 +37,7 @@ body {
     border-left: none;
     opacity: 0.9;
     transition: 0.3s;
-    width: 500px;
+    width: 470px;
 }
 
 
@@ -51,10 +51,10 @@ body {
 
 .row {
     row-gap: 100px;
-    column-gap: 80px;
-    width: 2000px;
+    column-gap: 30px;
+    width: 1500px;
     padding-top: 30px;
-    padding-left: 220px;
+    padding-left: 30px;
     padding-bottom: 40px;
 }
 
@@ -67,7 +67,7 @@ h4 {
 }
 
 .naptar .container {
-    padding-left: 100px;
+    padding-left: 50px;
     padding-top: 50px;
     margin: 0px;
 }
@@ -75,7 +75,7 @@ h4 {
 .display-3 {
     padding-left: 45px;
     font-family: unispace-bold;
-    width: 1500px;
+    width: 1400px;
 }
 
 fieldset{
@@ -83,8 +83,7 @@ fieldset{
     border-right: 10px solid; color:black;
     border-top-right-radius: 40px;
     padding-top: 30px;
-    padding-right: 1900px;
-    background-color: white;
+    padding-right: 1500px;
 }
 
 .display-10 {
@@ -92,7 +91,7 @@ fieldset{
     padding-left: 65px;
     font-family: headline;
     font-size: 40px;
-    width: 1500px;
+    width: 900px;
 }
 
 @font-face {
