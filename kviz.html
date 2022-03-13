@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="kviz.css">
     <title>Formula-1</title>
 </head>
 
@@ -28,7 +29,18 @@
             </div>
         </div>
     </nav>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <h1>Teszteld a F1-es tudásod ezzel a kvízzel!</h1>
+    <div class="yehet">
+        <div class="quiz-container">
+            <div id="quiz"></div>
+        </div>
+        <button id="previous">Previous Question</button>
+        <button id="next">Next Question</button>
+        <button id="submit">Submit Quiz</button>
+        <div id="results"></div>
+    </div>
+
+    <script src="kviz.js"></script>
 </body>
 
 </html>
