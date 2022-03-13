@@ -126,7 +126,7 @@ function showSlide(n) {
           correctAnswer: "c"
         },
         {
-          question: "2. Ki nem britt az alábi versenyzők közül?",
+          question: "2. Ki nem britt az alábbi versenyzők közül?",
           answers: {
             a: "Lando Norris",
             b: "Daniel Ricciardo",
@@ -136,7 +136,7 @@ function showSlide(n) {
           correctAnswer: "b"
         },
         {
-          question: "3. Ki versenyzik a Williams-nek az alábbi versenyzők közül?",
+          question: "3. Ki a Williams versenyzője az alábbiak közül?",
           answers: {
             a: "Valtteri Bottas",
             b: "Pierre Gasly",
@@ -172,6 +172,44 @@ function showSlide(n) {
               d: "Carlos Sainz Jr."
             },
             correctAnswer: "a"
+        },
+        {
+            question: "7. Ki a legidősebb az alábbiak közül?",
+            answers: {
+              a: "Sergio Perez",
+              b: "Kevin Magnussen",
+              c: "Sebastian Vettel",
+              d: "Fernando Alonso"
+            },
+            correctAnswer: "d"
+        },
+        {
+          question: "8. Melyik versenyző nem egy korábbi F1-es versenyző fia?",
+          answers: {
+            a: "Mick Schumacher",
+            b: "Max Verstappen",
+            c: "Carlos Sainz Jr."
+          },
+          correctAnswer: "c"
+        },
+        {
+          question: "9. Melyik pilóta európai származású az alábbiak közül?",
+          answers: {
+            a: "Lance Stroll",
+            b: "Kevin Magnussen",
+            c: "Sergio Perez",
+            d: "Alexander Albon"
+          },
+          correctAnswer: "b"
+        },
+        {
+          question: "10. Melyik pilóta nem az Alpha Tauri versenyzője az alábbiak közül?",
+          answers: {
+            a: "Yuki Tsunoda",
+            b: "Pierre Gasly",
+            c: "Mick Schumacher"
+          },
+          correctAnswer: "c"
         },
     ];
   
