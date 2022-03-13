@@ -1,3 +1,10 @@
+body {
+    background-image: url(kepek/hatterek/bjvtultedzvztgvjumllnsformula-one-new-logo-creative-responses-4-5a1d1a261c55d__700SREZ.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .palya-tarto {
     background-image: linear-gradient(rgb(173, 173, 173), white);
     background-repeat: no-repeat;
@@ -77,6 +84,7 @@ fieldset{
     border-top-right-radius: 40px;
     padding-top: 30px;
     padding-right: 1900px;
+    background-color: white;
 }
 
 .display-10 {
