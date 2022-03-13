@@ -24,7 +24,7 @@ body {
     width: 60px;
     position: absolute;
     left: 400px;
-    margin-top: 20px;
+    margin-top: 23px;
     border: 1px solid; color: black
 }
 
@@ -37,7 +37,7 @@ body {
     border-left: none;
     opacity: 0.9;
     transition: 0.3s;
-    width: 470px;
+    width: 500px;
 }
 
 
@@ -51,10 +51,10 @@ body {
 
 .row {
     row-gap: 100px;
-    column-gap: 30px;
-    width: 1500px;
+    column-gap: 80px;
+    width: 2000px;
     padding-top: 30px;
-    padding-left: 30px;
+    padding-left: 220px;
     padding-bottom: 40px;
 }
 
@@ -67,7 +67,7 @@ h4 {
 }
 
 .naptar .container {
-    padding-left: 50px;
+    padding-left: 100px;
     padding-top: 50px;
     margin: 0px;
 }
@@ -75,7 +75,7 @@ h4 {
 .display-3 {
     padding-left: 45px;
     font-family: unispace-bold;
-    width: 1400px;
+    width: 1500px;
 }
 
 fieldset{
@@ -83,7 +83,8 @@ fieldset{
     border-right: 10px solid; color:black;
     border-top-right-radius: 40px;
     padding-top: 30px;
-    padding-right: 1500px;
+    padding-right: 1900px;
+    background-color: white;
 }
 
 .display-10 {
@@ -91,7 +92,7 @@ fieldset{
     padding-left: 65px;
     font-family: headline;
     font-size: 40px;
-    width: 900px;
+    width: 1500px;
 }
 
 @font-face {
@@ -109,11 +110,39 @@ fieldset{
     src: url(assets/fonts/FrontPageNeue.woff);
 }
 
-
 .card-text {
     color: black;
     border-bottom: 1px solid; color: black;
     padding-bottom: 5px;
+}
+
+@media screen and (max-width: 1700px) {
+    .palya-tarto, 
+    .owo  
+    .card, 
+    .card:hover, 
+    .row, 
+    .naptar, .container,
+    .display-3, 
+    .display-10, 
+    .anchor {
+        width: 100%; 
+    }
+}
+
+@media screen and (max-width: 1700px){
+    h4, 
+    body, 
+    h2
+    h5 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1700px){
+    .he {
+        width: 100%;
+    }
 }
 
 .card-title {
@@ -127,7 +156,6 @@ fieldset{
 .card-title-2 {
     font-size: 32px;
 }
-
 
 .datum1 {
     background-color: black;
