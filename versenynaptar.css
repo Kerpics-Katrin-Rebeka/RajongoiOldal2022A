@@ -1,19 +1,31 @@
+.palya-tarto {
+    background-image: linear-gradient(rgb(173, 173, 173), white);
+    background-repeat: no-repeat;
+}
+
+.card-img, .card-bottom{
+    width: 200px;
+    height: 140px;
+    padding-right: 0px;
+    opacity: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .card-img, .card-img-top {
     width: 60px;
     position: absolute;
-    left: 350px;
-    margin-top: 20px;
+    left: 400px;
+    margin-top: 23px;
     border: 1px solid; color: black
 }
 
-.card-img .card-img-bottom {
-    width: 200px;
-}
 
 .card {
     border-top: 3px solid; color:red;
     border-right: 3px solid; color: red;
-    border-top-right-radius: 10px;
+    border-top-right-radius: 20px;
     border-bottom: none;
     border-left: none;
     opacity: 0.9;
@@ -22,12 +34,13 @@
 }
 
 
-
 .card:hover {
     opacity: 1;
     border-top: 6px solid; color: darkred;
     border-right: 6px solid; color: darkred;
 }
+
+
 
 .row {
     row-gap: 100px;
@@ -40,7 +53,10 @@
 
 h4 {
     color: black;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
+    font-size: 35px;
+    font-weight: bold;
+    border-bottom: 1px solid; color:black;
 }
 
 .naptar .container {
@@ -49,4 +65,213 @@ h4 {
     margin: 0px;
 }
 
+.display-3 {
+    padding-left: 45px;
+    font-family: unispace-bold;
+    width: 1500px;
+}
 
+fieldset{
+    border-top: 10px solid; color:black;
+    border-right: 10px solid; color:black;
+    border-top-right-radius: 40px;
+    padding-top: 30px;
+    padding-right: 1900px;
+}
+
+.display-10 {
+    text-transform: uppercase;
+    padding-left: 65px;
+    font-family: headline;
+    font-size: 40px;
+    width: 1500px;
+}
+
+@font-face {
+    font-family: unispace;
+    src: url(assets/fonts/unispace.ttf);
+}
+
+@font-face {
+    font-family: unispace-bold;
+    src: url(assets/fonts/unispace\ bold.ttf);
+}
+
+@font-face {
+    font-family: headline;
+    src: url(assets/fonts/FrontPageNeue.woff);
+}
+
+
+.card-text {
+    color: black;
+    border-bottom: 1px solid; color: black;
+    padding-bottom: 5px;
+}
+
+.card-title {
+    font-size: 33px;
+}
+
+.card-title-1 {
+    font-size: 28px;
+}
+
+.card-title-2 {
+    font-size: 32px;
+}
+
+
+.datum1 {
+    background-color: black;
+    color: white;
+    width: 183px;
+    font-size: 25px;
+}
+
+.datum2 {
+    background-color: black;
+    color: white;
+    width: 185px;
+    font-size: 25px;
+}
+
+.datum3 {
+    background-color: black;
+    color: white;
+    width: 165px;
+    font-size: 25px;
+}
+
+.datum4 {
+    background-color: black;
+    color: white;
+    width: 167px;
+    font-size: 25px;
+}
+
+.datum5 {
+    background-color: black;
+    color: white;
+    width: 167px;
+    font-size: 25px;
+}
+
+.datum6 {
+    background-color: black;
+    color: white;
+    width: 182px;
+    font-size: 25px;
+}
+
+.datum7 {
+    background-color: black;
+    color: white;
+    width: 185px;
+    font-size: 25px;
+}
+
+.datum8 {
+    background-color: black;
+    color: white;
+    width: 163px;
+    font-size: 25px;
+}
+
+.datum9 {
+    background-color: black;
+    color: white;
+    width: 160px;
+    font-size: 25px;
+}
+
+.datum10 {
+    background-color: black;
+    color: white;
+    width: 150px;
+    font-size: 25px;
+}
+
+.datum11 {
+    background-color: black;
+    color: white;
+    width: 160px;
+    font-size: 25px;
+}
+
+.datum12 {
+    background-color: black;
+    color: white;
+    width: 160px;
+    font-size: 25px;
+}
+
+.datum13 {
+    background-color: black;
+    color: white;
+    width: 155px;
+    font-size: 25px;
+}
+
+.datum14 {
+    background-color: black;
+    color: white;
+    width: 225px;
+    font-size: 25px;
+}
+
+.datum15 {
+    background-color: black;
+    color: white;
+    width: 250px;
+    font-size: 25px;
+}
+
+.datum16 {
+    background-color: black;
+    color: white;
+    width: 235px;
+    font-size: 25px;
+}
+
+.datum17 {
+    background-color: black;
+    color: white;
+    width: 365px;
+    font-size: 25px;
+}
+
+.datum18 {
+    background-color: black;
+    color: white;
+    width: 200px;
+    font-size: 25px;
+}
+
+.datum19 {
+    background-color: black;
+    color: white;
+    width: 190px;
+    font-size: 25px;
+}
+
+.datum20 {
+    background-color: black;
+    color: white;
+    width: 195px;
+    font-size: 25px;
+}
+
+.datum21 {
+    background-color: black;
+    color: white;
+    width: 210px;
+    font-size: 25px;
+}
+
+.datum22 {
+    background-color: black;
+    color: white;
+    width: 220px;
+    font-size: 25px;
+}
