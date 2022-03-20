@@ -2,3 +2,4 @@
 .navbar .navbar-nav .nav-link { color: #fff; }
 .navbar .navbar-nav .nav-link:hover { color: black; background-color: white; text-decoration: underline;}
 .navbar .navbar-nav .active > .nav-link { color: black; }
+
