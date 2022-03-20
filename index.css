@@ -1,0 +1,24 @@
+body{
+    font-size: 14px;
+    background-image: url(/kepek/egyebkepek/kocsi.jpg) ;
+    background-size: cover;
+}
+p{
+    font-weight: bold;
+}
+p.white{
+    color: white;
+}
+p.blue{
+    color: rgb(53, 198, 255);
+}
+p.yellow{
+    color: yellow;
+}
+p.red{
+    color: red;
+}
+h1{
+    text-align: center;
+    color: white;
+}
