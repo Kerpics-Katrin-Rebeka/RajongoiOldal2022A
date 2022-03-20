@@ -54,13 +54,8 @@ fieldset{
     font-weight: bold;
 }
 
-.card-text-1{
-    padding-left: 20px;
-    padding-top: 40px;
-    font-weight: bold;
-}
 
-.card-text-2{
+.card-text{
     padding-left: 20px;
     padding-top: 10px;
     font-weight: bold;
@@ -71,12 +66,20 @@ ol{
 }
 
 .yeah{
-    padding-bottom: 30px;
+    padding-bottom: 5px;
 }
+
 
 .card-pic {
     width: 470px;
     height: 470px;
+    align-self: center;
+    border: 3px solid; color: black;
+    border-radius: 5px;
+}
+
+.card-pic-2 {
+    height: 550px;
     align-self: center;
     border: 3px solid; color: black;
     border-radius: 5px;
