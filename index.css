@@ -1,24 +1,41 @@
 body{
     font-size: 14px;
-    background-image: url(/kepek/egyebkepek/kocsi.jpg) ;
+    background-image: url(/kepek/hatterek/image.jpg) ;
     background-size: cover;
+    image-resolution: 11;
 }
+
+.yehet {
+    padding-top: 20px;
+    background-color: grey;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    opacity: 0.8;
+}
+
 p{
     font-weight: bold;
 }
 p.white{
     color: white;
+    opacity: 1;
 }
 p.blue{
     color: rgb(53, 198, 255);
+    opacity: 1;
 }
 p.yellow{
     color: yellow;
+    opacity: 1;
 }
 p.red{
     color: red;
+    opacity: 1;
 }
 h1{
     text-align: center;
     color: white;
+    opacity: 1;
 }
+

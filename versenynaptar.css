@@ -54,7 +54,7 @@ body {
     column-gap: 80px;
     width: 2000px;
     padding-top: 30px;
-    padding-left: 220px;
+    padding-left: 100px;
     padding-bottom: 40px;
 }
 
@@ -67,7 +67,7 @@ h4 {
 }
 
 .naptar .container {
-    padding-left: 100px;
+    padding-left: 20px;
     padding-top: 50px;
     margin: 0px;
 }
@@ -83,7 +83,7 @@ fieldset{
     border-right: 10px solid; color:black;
     border-top-right-radius: 40px;
     padding-top: 30px;
-    padding-right: 1900px;
+    padding-right: 1800px;
     background-color: white;
 }
 
