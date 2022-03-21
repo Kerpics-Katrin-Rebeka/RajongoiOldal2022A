@@ -40,9 +40,9 @@ h4 {
 }
 
 .row {
-    column-gap: 50px;
+    column-gap: 20px;
     row-gap: 100px;
-    padding-left: 50px;
+    padding-left: 30px;
     padding-top: 50px;
 }
 
@@ -52,7 +52,15 @@ h4 {
     border-top-right-radius: 10px;
     height: 700px;
     background-color: white;
-    width: 700px;
+    width: 600px;
+    transition: 0.9s;
+}
+
+.card:hover {
+    border-top: 6px solid; color: darkred;
+    border-right: 6px solid; color: darkred;
+    width: 590px;
+    height: 690px;
 }
 
 li {
