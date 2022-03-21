@@ -1,69 +1,66 @@
 body {
-  background-image: url(kepek/egyebkepek/Bahrain.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+    background-image: url(kepek/egyebkepek/Bahrain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 fieldset {
-  font-size: 50px;
-  text-align: center;
-  font-weight: bold;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: white;
-  border-bottom: 3px solid;
-  color: black;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    border-bottom: 3px solid; color: black;
 }
 
 h2 {
-  font-weight: bold;
-  padding-top: 20px;
-  padding-left: 20px;
-  color: black;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: black;
 }
 
 h4 {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .teampic {
-  width: 600px;
-  height: 400px;
-  align-self: center;
+    width: 600px;
+    height: 400px;
+    align-self: center;
 }
 
 .driver {
-  width: 500px;
-  height: 500px;
-  align-self: center;
-  padding-top: 30px;
+    width: 500px;
+    height: 500px;
+    align-self: center;
+    padding-top: 30px;
 }
 
 .row {
-  column-gap: 10px;
-  row-gap: 100px;
-  padding-left: 50px;
-  padding-top: 50px;
+    column-gap: 50px;
+    row-gap: 100px;
+    padding-left: 50px;
+    padding-top: 50px;
 }
 
 .card {
-  border-top: 6px solid;
-  color: red;
-  border-right: 6px solid;
-  color: red;
-  border-top-right-radius: 10px;
-  height: 700px;
-  background-color: white;
-  width: 600px;
+    border-top: 6px solid; color: red;
+    border-right: 6px solid; color: red;
+    border-top-right-radius: 10px;
+    height: 700px;
+    background-color: white;
+    width: 700px;
 }
 
 li {
-  color: black;
+    color: black;
 }
 
-.info {
-  padding-top: 20px;
-  text-align: center;
-  list-style-type: none;
+.info{ 
+    padding-top: 20px;
+    text-align: center;
+    list-style-type: none;
 }
