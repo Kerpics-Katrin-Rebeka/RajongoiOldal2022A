@@ -1,4 +1,33 @@
-.navbar { background-color: red; font-size: 20px; }
-.navbar .navbar-nav .nav-link { color: #fff; }
-.navbar .navbar-nav .nav-link:hover { color: black; background-color: white; text-decoration: underline;}
-.navbar .navbar-nav .active > .nav-link { color: black; }
+.navbar {
+    background-color: red; 
+    font-size: 30px; 
+}
+
+.navbar .navbar-nav .nav-link { 
+    color: #fff; 
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: black; 
+    background-color: white; 
+    text-decoration: underline; 
+    border-right: black; 
+    border-bottom: black;
+}
+
+.navbar .navbar-nav .active > .nav-link {
+    color: black; 
+    border-bottom: 4px solid; color: black;
+    padding-bottom: 0px;
+}
+
+.navbar .container {
+    padding-left: 60px;
+    margin: 0px;
+}
+
+.navbar .nav-expand-lrg {
+    width: 400px;
+}
+
+
