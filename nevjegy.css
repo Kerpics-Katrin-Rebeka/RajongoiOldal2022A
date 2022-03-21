@@ -2,6 +2,7 @@ body{
     background-image: url(kepek/hatterek/220021-bahrain-gp-2022-friday.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .display-3{
@@ -29,7 +30,7 @@ fieldset{
 
 .nevjegyek{
     padding-top: 40px;
-    padding-left: 250px;
+    padding-left: 30px;
 }
 
 .card{
@@ -43,7 +44,7 @@ fieldset{
 
 .card:hover{
     width: 570px;
-    height: 770px;
+    height: 690px;
     border: 4px solid; color: black;
 }
 
