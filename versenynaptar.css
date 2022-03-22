@@ -131,9 +131,14 @@ fieldset{
 }
 
 @media screen and (max-width: 1700px) {
-    .fieldset {
-        width: 100%; 
-        padding-right: 100%
+    .fieldset { 
+        padding-right: 100%;
+        border-top: 100%;
+        border-right: 100%;
+        border-top-right-radius: 100%;
+        padding-top: 100%;
+        padding-right: 100%;
+        background-color: 100%;
     }
 }
 
@@ -144,6 +149,12 @@ fieldset{
     fieldset,
     h5 {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 1700px){
+    body{
+        background-image: 100%;
     }
 }
 
