@@ -131,7 +131,7 @@ fieldset{
 }
 
 @media screen and (max-width: 1700px) {
-    .fieldset,{
+    .fieldset {
         width: 100%; 
         padding-right: 100%
     }
