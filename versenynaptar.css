@@ -45,6 +45,7 @@ body {
     opacity: 1;
     border-top: 6px solid; color: darkred;
     border-right: 6px solid; color: darkred;
+    width: 500px;
 }
 
 
@@ -120,7 +121,6 @@ fieldset{
     .palya-tarto, 
     .owo  
     .card, 
-    .card:hover, 
     .row, 
     .naptar, .container,
     .display-3, 
@@ -130,10 +130,18 @@ fieldset{
     }
 }
 
+@media screen and (max-width: 1700px) {
+    .fieldset,{
+        width: 100%; 
+        padding-right: 100%
+    }
+}
+
 @media screen and (max-width: 1700px){
     h4, 
     body, 
-    h2
+    h2,
+    fieldset,
     h5 {
         width: 100%;
     }
