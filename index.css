@@ -1,7 +1,7 @@
 body{
     font-size: 14px;
     background-image: url(/kepek/hatterek/image.jpg) ;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     image-resolution: 11;
@@ -14,6 +14,7 @@ body{
     padding-left: 20px;
     padding-right: 10px;
     opacity: 0.8;
+    margin-bottom: 20px;
 }
 
 p{
@@ -89,6 +90,20 @@ h1{
   bottom: 8px;
   width: 100%;
   text-align: center;
+  background-color: grey;
+  opacity: 0.6;
+  transition: 0.7s;
+}
+
+.text:hover {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  opacity: 1;
 }
 
 .numbertext {
@@ -97,6 +112,19 @@ h1{
   padding: 8px 12px;
   position: absolute;
   top: 0;
+  background-color: grey;
+  opacity: 0.6;
+  transition: 0.7s;
+}
+
+.numbertext:hover {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  background-color: grey;
+  opacity: 1;
 }
 
 .dot {
@@ -110,16 +138,7 @@ h1{
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.dot:hover {
   background-color: #717171;
 }
 
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: 0.4}
-  to {opacity: 1}
-}

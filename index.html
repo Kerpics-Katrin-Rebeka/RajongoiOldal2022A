@@ -8,23 +8,22 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Formula-1</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container"><a class="navbar-brand logo text-white" href="index.html"><i class="fa fa-graduation-cap fa-lg mr-2"></i><img src="kepek/egyebkepek/F1-LOGO.png" width="150px" float="right"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="nvbCollapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active pl-1"><a class="nav-link" href="index.html"><i class="fa fa-home fa-fw mr-1"></i>Főoldal</a></li>
-                    <li class="nav-item pl-1"><a class="nav-link" href="versenyzokEsCsapatok.html"><i class="fa fa-th-list fa-fw mr-1"></i>Csapatok és versenyzők</a></li>
-                    <li class="nav-item pl-1"><a class="nav-link" href="versenynaptar.html"><i class="fa fa-info-circle fa-fw mr-1"></i>Versenynaptár</a></li>
-                    <li class="nav-item pl-1"><a class="nav-link" href="kviz.html"><i class="fa fa-phone fa-fw fa-rotate-180 mr-1"></i>Kvíz</a></li>
-                    <li class="nav-item pl-1"><a class="nav-link" href="nevjegy.html"><i class="fa fa-user-plus fa-fw mr-1"></i>Névjegy</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+  <div class="topnav" id="myTopnav">
+    <a class="logo" href="index.html"><img class="nav-pic" src="kepek/egyebkepek/F1-LOGO.png" width="150px" float="right"></a>
+    <a href="index.html" class="active">Főoldal</a>
+    <a class="bish" href="versenyzokEsCsapatok.html">Csapatok és versenyzők</a>
+    <a class="naptar" href="versenynaptar.html">Versenynaptár</a>
+    <a href="kviz.html">Kvíz</a>
+    <a href="nevjegy.html">Névjegy</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+</div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <div class="yehet">
         <h1>Formula-1</h1>
@@ -34,7 +33,7 @@
         <p class="red">A Formula–1 a világ egyik legdrágább sportága, a csapatok költségeit nagyrészt szponzorok fedezik. A legnagyobb befolyással a Formula–1-ben sokáig a brit Bernie Ecclestone, a Formula One Management (FOM) elnöke rendelkezett. 2017-ben viszont új tulajdonba került a sportág, a Liberty Media rengeteg változtatást hozhat és ígér az autósportnak.</p>
     </div>
     <div class="slideshow-container">
-        <div class="mySlides fade">
+        <div class="mySlides">
           <div class="numbertext">1 / 9</div>
           <img src="kepek/history/1950.jpg" style="width:100%">
           <div class="text">1950</div>
@@ -103,6 +102,7 @@
         <span class="dot" onclick="currentSlide(9)"></span>
       </div>
     <script src="index.js"></script>
+    <script src="navbar.js"></script>
 </body>
 
 </html>
