@@ -53,7 +53,7 @@ body {
 .row {
     row-gap: 100px;
     column-gap: 80px;
-    width: 2000px;
+    width: 1800px;
     padding-top: 30px;
     padding-left: 100px;
     padding-bottom: 40px;
@@ -84,8 +84,8 @@ fieldset{
     border-right: 10px solid; color:black;
     border-top-right-radius: 40px;
     padding-top: 30px;
-    padding-right: 1800px;
     background-color: white;
+    width: 100%;
 }
 
 .display-10 {

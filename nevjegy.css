@@ -85,3 +85,16 @@ ol{
     border: 3px solid; color: black;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 900px) {
+    body { 
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    fieldset,
+    .card { 
+        width: 100%;
+    }
+}
