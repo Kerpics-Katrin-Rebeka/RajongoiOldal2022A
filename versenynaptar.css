@@ -45,6 +45,7 @@ body {
     opacity: 1;
     border-top: 6px solid; color: darkred;
     border-right: 6px solid; color: darkred;
+    width: 500px;
 }
 
 
@@ -52,7 +53,7 @@ body {
 .row {
     row-gap: 100px;
     column-gap: 80px;
-    width: 2000px;
+    width: 1800px;
     padding-top: 30px;
     padding-left: 100px;
     padding-bottom: 40px;
@@ -83,8 +84,8 @@ fieldset{
     border-right: 10px solid; color:black;
     border-top-right-radius: 40px;
     padding-top: 30px;
-    padding-right: 1800px;
     background-color: white;
+    width: 100%;
 }
 
 .display-10 {
@@ -120,7 +121,6 @@ fieldset{
     .palya-tarto, 
     .owo  
     .card, 
-    .card:hover, 
     .row, 
     .naptar, .container,
     .display-3, 
@@ -130,12 +130,31 @@ fieldset{
     }
 }
 
+@media screen and (max-width: 1700px) {
+    .fieldset { 
+        padding-right: 100%;
+        border-top: 100%;
+        border-right: 100%;
+        border-top-right-radius: 100%;
+        padding-top: 100%;
+        padding-right: 100%;
+        background-color: 100%;
+    }
+}
+
 @media screen and (max-width: 1700px){
     h4, 
     body, 
-    h2
+    h2,
+    fieldset,
     h5 {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 1700px){
+    body{
+        background-image: 100%;
     }
 }
 

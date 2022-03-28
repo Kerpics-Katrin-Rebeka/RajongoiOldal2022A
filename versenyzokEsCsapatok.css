@@ -27,7 +27,7 @@ h4 {
 }
 
 .teampic {
-    width: 600px;
+    width: 580px;
     height: 400px;
     align-self: center;
 }
@@ -71,4 +71,18 @@ li {
     padding-top: 20px;
     text-align: center;
     list-style-type: none;
+}
+
+.info-1{ 
+    text-align: center;
+    list-style-type: none;
+    padding-top: 55px;
+    font-size: 20px;
+}
+
+.info-2{ 
+    text-align: center;
+    list-style-type: none;
+    padding-top: 15px;
+    font-size: 20px;
 }
