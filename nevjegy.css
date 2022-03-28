@@ -49,7 +49,6 @@ fieldset{
 }
 
 .idk {
-    margin-top: 10px;
     margin-left: 20px;
 }
 
@@ -59,8 +58,8 @@ fieldset{
 }
 
 .card{
-    width: 550px;
-    height: 700px;
+    width: 610px;
+    height: 610px;
     border: 2px solid; color: black;
     border-radius: 30px;
     background-color: white;
@@ -69,8 +68,8 @@ fieldset{
 }
 
 .card:hover{
-    width: 610px;
-    height: 760px;
+    width: 620px;
+    height: 620px;
     border: 4px solid; color: black;
 }
 
@@ -79,26 +78,24 @@ fieldset{
     padding-left: 10px;
     border-bottom: 3px solid; color: black;
     font-weight: bold;
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    text-shadow: 0 0 3px greenyellow;
 }
 
 
 .card-text{
-    padding-left: 20px;
-    padding-top: 10px;
     font-weight: bold;
-    text-shadow: 0 0 3px aquamarine;
+    text-shadow: 0 0 3px blue;
 }
 
-ol{
-    list-style-type: circle;
+h1 {
+    font-weight: bold;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; 
 }
 
-.yeah{
-    padding-bottom: 5px;
+h2, h3 {
+    font-weight: bold;
+    text-shadow: 0 0 3px blue;
 }
-
-
 
 .card-pic {
     width: 100%;
