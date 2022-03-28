@@ -9,27 +9,22 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="versenynaptar.css">
     <link rel="stylesheet" href="assets/fonts/unispace.ttf">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Formula-1</title>
 </head>
 
 <body class="he">
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <a class="navbar-brand text-white" href="index.html"><i class="fa fa-graduation-cap fa-lg mr-2"></i><img src="kepek/egyebkepek/F1-LOGO.png" width="150px"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nvbCollapse" aria-controls="nvbCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="nvbCollapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item pl-1"><a class="nav-link" href="index.html"><i class="fa fa-home fa-fw mr-1"></i>Főoldal</a></li>
-                    <li class="nav-item pl-1"><a class="nav-link" href="versenyzokEsCsapatok.html"><i class="fa fa-th-list fa-fw mr-1"></i>Csapatok és versenyzők</a></li>
-                    <li class="nav-item active pl-1"><a class="nav-link" href="versenynaptar.html"><i class="fa fa-info-circle fa-fw mr-1"></i>Versenynaptár</a></li>
-                    <li class="nav-item pl-1"><a class="nav-link" href="kviz.html"><i class="fa fa-phone fa-fw fa-rotate-180 mr-1"></i>Kvíz</a></li>
-                    <li class="nav-item pl-1"><a class="nav-link" href="nevjegy.html"><i class="fa fa-user-plus fa-fw mr-1"></i>Névjegy</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <div class="topnav" id="myTopnav">
+        <a class="logo" href="index.html"><img class="nav-pic" src="kepek/egyebkepek/F1-LOGO.png" width="150px" float="right"></a>
+        <a href="index.html">Főoldal</a>
+        <a class="bish" href="versenyzokEsCsapatok.html">Csapatok és versenyzők</a>
+        <a class="naptar active" href="versenynaptar.html">Versenynaptár</a>
+        <a href="kviz.html">Kvíz</a>
+        <a href="nevjegy.html">Névjegy</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
     <div class="naptar">
         <div class="container">
             <a class="anchor" id="schedule"></a>
@@ -385,6 +380,7 @@
             </div>
         </div>
     </div>
+    <script src="navbar.js"></script>
 </body>
 
 </html>

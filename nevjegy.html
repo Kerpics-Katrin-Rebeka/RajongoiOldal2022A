@@ -8,27 +8,22 @@
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="nevjegy.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Formula-1</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <a class="navbar-brand text-white" href="index.html"><i class="fa fa-graduation-cap fa-lg mr-2"></i><img src="kepek/egyebkepek/F1-LOGO.png" width="150px"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nvbCollapse" aria-controls="nvbCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="nvbCollapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item pl-1"><a class="nav-link" href="index.html"><i class="fa fa-home fa-fw mr-1"></i>Főoldal</a></li>
-                    <li class="nav-item pl-1"><a class="nav-link" href="versenyzokEsCsapatok.html"><i class="fa fa-th-list fa-fw mr-1"></i>Csapatok és versenyzők</a></li>
-                    <li class="nav-item pl-1"><a class="nav-link" href="versenynaptar.html"><i class="fa fa-info-circle fa-fw mr-1"></i>Versenynaptár</a></li>
-                    <li class="nav-item pl-1"><a class="nav-link" href="kviz.html"><i class="fa fa-phone fa-fw fa-rotate-180 mr-1"></i>Kvíz</a></li>
-                    <li class="nav-item active pl-1"><a class="nav-link" href="nevjegy.html"><i class="fa fa-user-plus fa-fw mr-1"></i>Névjegy</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <div class="topnav" id="myTopnav">
+        <a class="logo" href="index.html"><img class="nav-pic" src="kepek/egyebkepek/F1-LOGO.png" width="150px" float="right"></a>
+        <a href="index.html">Főoldal</a>
+        <a class="bish" href="versenyzokEsCsapatok.html">Csapatok és versenyzők</a>
+        <a class="naptar" href="versenynaptar.html">Versenynaptár</a>
+        <a href="kviz.html">Kvíz</a>
+        <a href="nevjegy.html" class="active">Névjegy</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
 
     <div class="nevjegyek">
         <fieldset>
@@ -39,44 +34,90 @@
                 <h4 class="card-title">
                     Holbok Péter
                 </h4>
-                <h5 class="card-text">
-                    Készítette:
-                </h5>
-                <ol class="yeah">
-                    <li>Index/Főoldal</li>
-                </ol>
-                <img class="card-pic" src="kepek/egyebkepek/98750737.jpg" alt="Holbok Péter">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="kepek/egyebkepek/98750737.jpg" alt="Holbok Péter" style="width:100%;height:100%;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Holbok Péter</h1>
+                        <h2>Leírás:</h2>
+                        <h4>2006-os születésű, téti úriember, akinek az anyanyelve a magyar.</h4>
+                        <h2 class="card-text">
+                            Készítette:
+                        </h2>
+                        <h5>Index/Főoldal</h5>
+                        <h3>Elérhetőségek:</h3>
+                        <div class="row-2">
+                            <a href="https://www.facebook.com/holbok.peter.73" target="_blank"><img class="idk" src="kepek/egyebkepek/facebook.png" style="width:20%;height:20%;"></a>
+                            <a href="https://www.instagram.com/peterholbok/" target="_blank"><img class="idk" src="kepek/egyebkepek/insta.png" style="width:20%;height:20%;"></a>
+                            <a href="https://github.com/holbok-peter" target="_blank"><img class="idk" src="kepek/egyebkepek/github.png" style="width:20%;height:20%;"></a>
+                        </div>
+                      </div>
+                    </div>
+                </div>   
             </div>
             <div class="card col-md-4">
                 <h4 class="card-title">
                     Jankó Julianna
                 </h4>
-                <h5 class="card-text">
-                    Készítette:
-                </h5>
-                <ol class="yeah">
-                    <li>Csapatok és Versenyzők</li>
-                </ol>
-                <img class="card-pic-2" src="kepek/egyebkepek/276030169_774494727271730_4625021755506834968_n.jpg" alt="Jankó Julianna">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="kepek/egyebkepek/276030169_774494727271730_4625021755506834968_n.jpg" alt="Jankó Julianna" style="width:100%;height:100%;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Jankó Julianna</h1>
+                        <h2>Leírás:</h2>
+                        <h4>Belevaló Valorant és League of Legends játékos, kinek hű társa nem más, mint tengerimalaca Gülüke.</h4>
+                        <h2 class="card-text">
+                            Készítette:
+                        </h2>
+                        <h5>Csapatok és Versenyzők</h5>
+                        <h3>Elérhetőségek:</h3>
+                        <div class="row-2">
+                            <a href="https://www.facebook.com/jankojulianna" target="_blank"><img class="idk" src="kepek/egyebkepek/facebook.png" style="width:20%;height:20%;"></a>
+                            <a href="https://www.instagram.com/julcsichan/" target="_blank"><img class="idk" src="kepek/egyebkepek/insta.png" style="width:20%;height:20%;"></a>
+                            <a href="https://github.com/janko-julianna" target="_blank"><img class="idk" src="kepek/egyebkepek/github.png" style="width:20%;height:20%;"></a>
+                        </div>
+                      </div>
+                    </div>
+                </div>  
             </div>
             <div class="card col-md-4">
                 <h4 class="card-title">
                     Kerpics Katrin
                 </h4>
-                <h5 class="card-text">
-                    Készítette:
-                </h5>
-                <ol>
-                    <li>Versenynaptár</li>
-                    <li>Kvíz</li>
-                    <li>Névjegy</li>
-                </ol>
-                <img class="card-pic" src="kepek/egyebkepek/276134132_663314344876169_5568283639794415182_n.jpg" alt="Kerpics Katrin">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="kepek/egyebkepek/276134132_663314344876169_5568283639794415182_n.jpg" alt="Kerpics Katrin" style="width:100%;height:100%;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Kerpics Katrin</h1>
+                        <h2>Leírás:</h2>
+                        <h4>Hivatásos F1 rajongó és tökfej, aki a napja 90%-át a telefonján tölti, <br> aludni nem képes és mindig valami "nagyon" értelmes dologra gondol.</h4>
+                        <h2 class="card-text">
+                            Készítette:
+                        </h2>
+                        <h5>Versenynaptár</h5>
+                        <h5>Kvíz</h5>
+                        <h5>Névjegy</h5>
+                        <h3>Elérhetőségek:</h3>
+                        <div class="row-2">
+                            <a href="https://www.facebook.com/katrin.kerpics/" target="_blank"><img class="idk" src="kepek/egyebkepek/facebook.png" style="width:20%;height:20%;"></a>
+                            <a href="https://www.instagram.com/k.kazri/" target="_blank"><img class="idk" src="kepek/egyebkepek/insta.png" style="width:20%;height:20%;"></a>
+                            <a href="https://github.com/Kerpics-Katrin-Rebeka" target="_blank"><img class="idk" src="kepek/egyebkepek/github.png" style="width:20%;height:20%;"></a>
+                        </div>
+                      </div>
+                    </div>
+                </div>  
             </div>
         </div>
-    </div>
-
+    </div>    
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="navbar.js"></script>
 </body>
+
 
 </html>

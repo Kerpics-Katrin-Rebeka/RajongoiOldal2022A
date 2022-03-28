@@ -8,394 +8,388 @@
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="versenyzokEsCsapatok.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Formula-1</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <a class="navbar-brand text-white" href="index.html"><i class="fa fa-graduation-cap fa-lg mr-2"></i><img src="kepek/egyebkepek/F1-LOGO.png" width="150px"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nvbCollapse" aria-controls="nvbCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="nvbCollapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item pl-1"><a class="nav-link" href="index.html"><i class="fa fa-home fa-fw mr-1"></i>Főoldal</a></li>
-                    <li class="nav-item active pl-1"><a class="nav-link" href="versenyzokEsCsapatok.html"><i class="fa fa-th-list fa-fw mr-1"></i>Csapatok és versenyzők</a></li>
-                    <li class="nav-item pl-1"><a class="nav-link" href="versenynaptar.html"><i class="fa fa-info-circle fa-fw mr-1"></i>Versenynaptár</a></li>
-                    <li class="nav-item pl-1"><a class="nav-link" href="kviz.html"><i class="fa fa-phone fa-fw fa-rotate-180 mr-1"></i>Kvíz</a></li>
-                    <li class="nav-item pl-1"><a class="nav-link" href="nevjegy.html"><i class="fa fa-user-plus fa-fw mr-1"></i>Névjegy</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-</body>
-
-<div>
-    <fieldset>
-        Csapatok és Versenyzők
-    </fieldset>
-    <div>
-        <div class="card-body">
-            <div class="row">
-                <div class="card col-md-4">
-                    <h2>Mercedes-AMG Petronas F1 Team</h2>
-                    <img class="teampic" src="kepek/csapatok/mercedes.jpg">
-                    <ul class="info-2">
-                        <li>Székhely: Brackley, Egyesült Királyság (Karosszéria), Brixworth, Egyesült Királyság (Motorok)</li>
-                        <li>Nemzetiség: német</li>
-                        <li>Csapatfőnök: Toto Wolff</li>
-                        <li>Kasztni: W13</li>
-                    </ul>
-                </div>
-                <div class="card col-md-4">
-                    <img class="driver" src="kepek/versenyzok/hamilton.jpg">
-                    <ul class="info">
-                        <li>Név: Lewis Hamilton </li>
-                        <li>Született: 1985. január 7.</li>
-                        <li>Nemzetiség: brit</li>
-                        <li>Rajtszám: 44</li>
-                        <li>Születési hely: Stevenage, Egyesült Királyság</li>
-                    </ul>
-                </div>
-                <div class="card col-md-4">
-                    <img class="driver" src="kepek/versenyzok/russell.jpg">
-                    <ul class="info">
-                        <li>Név: George Russell</li>
-                        <li>Született: 1998. február 15.</li>
-                        <li>Nemzetiség: brit</li>
-                        <li>Rajtszán: 63</li>
-                        <li>King's Lynn, Egyesült Királyság</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    <div class="topnav" id="myTopnav">
+        <a class="logo" href="index.html"><img class="nav-pic" src="kepek/egyebkepek/F1-LOGO.png" width="150px" float="right"></a>
+        <a href="index.html">Főoldal</a>
+        <a class="bish active" href="versenyzokEsCsapatok.html">Csapatok és versenyzők</a>
+        <a class="naptar" href="versenynaptar.html">Versenynaptár</a>
+        <a href="kviz.html">Kvíz</a>
+        <a href="nevjegy.html">Névjegy</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
     </div>
     <div>
-        <div class="card-body">
-            <div class="row">
-                <div class="card col-md-4">
-                    <h2>Scuderia Ferrari</h2>
-                    <img class="teampic" src="kepek/csapatok/ferrari-f1-75-1.jpg">
-                <ul class="info-1">
-                    <li>Székhely: Maranello, Olaszország</li>
-                    <li>Nemzetiség: olasz</li>
-                    <li>Csapatfőnök: Mattia Binotto</li>
-                    <li>Kasztni: F1-75</li>
-                </ul>
-                </div>
-                <div class="card col-md-4">
-                    <img class="driver" src="kepek/versenyzok/leclerc.jpg">
-                    <ul class="info">
-                        <li>Név: Charles Leclerc</li>
-                        <li>Született: 1997. október 16.</li>
-                        <li>Nemzetiség: monakói</li>
-                        <li>Rajtszám: 16</li>
-                        <li>Születési hely: Monte-Carlo, Monaco</li>
-                    </ul>
-                </div>
-                <div class="card col-md-4">
-                    <img class="driver" src="kepek/versenyzok/sainz.jpg">
-                    <ul class="info">
-                        <li>Név: Carlos Sainz Jr.</li>
-                        <li>Született: 1994. szeptember 1.</li>
-                        <li>Nemzetiség: spanyol</li>
-                        <li>Rajtszám: 55</li>
-                        <li>Születési hely: Madrid, Spanyolország</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="card-body">
-            <div class="row">
-                <div class="card col-md-4">
-                    <h2>Oracle Red Bull Racing</h2>
-                    <img class="teampic" src="kepek/csapatok/red bull.jpg">
-                <ul class="info-1">
-                    <li>Székhely: Székhely: Milton Keynes, Egyesült Királyság</li>
-                    <li>Nemzetiség: osztrák</li>
-                    <li>Csapatfőnök: Christian Horner</li>
-                    <li>Kasztni: RB18</li>
-                </ul>
-                </div>
-                <div class="card col-md-4">
-                    <img class="driver" src="kepek/versenyzok/verstappen.jpg">
-                    <ul class="info">
-                        <li>Név: Max Verstappen</li>
-                        <li>Született: 1997. szeptember 30.</li>
-                        <li>Nemzetiség: holland</li>
-                        <li>Rajtszám: 1 (33)</li>
-                        <li>Születési hely: Hasselt, Belgium</li>
-                    </ul>
-                </div>
-                <div class="card col-md-4">
-                    <img class="driver" src="kepek/versenyzok/perez.jpg">
-                    <ul class="info">
-                        <li>Név: Sergio Perrez</li>
-                        <li>Született: 1990. január 26.</li>
-                        <li>Nemzetiség: mexikói</li>
-                        <li>Rajtszám: 11</li>
-                        <li>Születési hely: Guadalajara, Mexikó</li>
-                    </ul>
+        <fieldset>
+            Csapatok és Versenyzők
+        </fieldset>
+        <div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="card col-md-4">
+                        <h2>Mercedes-AMG Petronas F1 Team</h2>
+                        <img class="teampic" src="kepek/csapatok/mercedes.jpg">
+                        <ul class="info-2">
+                            <li>Székhely: Brackley, Egyesült Királyság (Karosszéria), Brixworth, Egyesült Királyság (Motorok)</li>
+                            <li>Nemzetiség: német</li>
+                            <li>Csapatfőnök: Toto Wolff</li>
+                            <li>Kasztni: W13</li>
+                        </ul>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="driver" src="kepek/versenyzok/hamilton.jpg">
+                        <ul class="info">
+                            <li>Név: Lewis Hamilton </li>
+                            <li>Született: 1985. január 7.</li>
+                            <li>Nemzetiség: brit</li>
+                            <li>Rajtszám: 44</li>
+                            <li>Születési hely: Stevenage, Egyesült Királyság</li>
+                        </ul>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="driver" src="kepek/versenyzok/russell.jpg">
+                        <ul class="info">
+                            <li>Név: George Russell</li>
+                            <li>Született: 1998. február 15.</li>
+                            <li>Nemzetiség: brit</li>
+                            <li>Rajtszán: 63</li>
+                            <li>King's Lynn, Egyesült Királyság</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div>
-        <div class="card-body">
-            <div class="row">
-                <div class="card col-md-4">
-                    <h2>McLaren F1 Team</h2>
-                    <img class="teampic" src="kepek/csapatok/mclaren.jpg">
+        <div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="card col-md-4">
+                        <h2>Scuderia Ferrari</h2>
+                        <img class="teampic" src="kepek/csapatok/ferrari-f1-75-1.jpg">
                     <ul class="info-1">
-                        <li>Székhely: Woking, Egyesült Királyság</li>
-                        <li>Nemzetiség: britt</li>
-                        <li>Csapatfőnök: Zak Brown</li>
-                        <li>Kasztni: MCL 36</li>
-                    </ul>
-                </div>
-                <div class="card col-md-4">
-                    <img class="driver" src="kepek/versenyzok/norris.jpg">
-                    <ul class="info">
-                        <li>Név: Lando Norris</li>
-                        <li>Született: 1999. november 13.</li>
-                        <li>Nemzetiség: brit</li>
-                        <li>Rajtszám: 4</li>
-                        <li>Születési hely: Bristol, Anglia</li>
-                    </ul>
-                </div>
-                <div class="card col-md-4">
-                    <img class="driver" src="kepek/versenyzok/ricciardo.jpg">
-                    <ul class="info">
-                        <li>Név: Daniel Ricciardo</li>
-                        <li>Született: 1989. július 1.</li>
-                        <li>Nemzetiség: ausztrál</li>
-                        <li>Rajtszám: 3</li>
-                        <li>Születési hely: Perth, Asztrália</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="card-body">
-            <div class="row">
-                <div class="card col-md-4">
-                    <h2>BWT Alpine F1 Team</h2>
-                    <img class="teampic" src="kepek/csapatok/alpine.jpg">
-                    <ul class="info-1">
-                        <li>Székhely:  Enstone, Egyesült Királyság</li>
-                        <li>Nemzetiség: francia</li>
-                        <li>Csapatfőnök: Otmar Szafnauer</li>
-                        <li>Kasztni: A522</li>
-                    </ul>
-                </div>
-                <div class="card col-md-4">
-                    <img class="driver" src="kepek/versenyzok/ocon.jpg">
-                    <ul class="info">
-                        <li>Név: Esteban Ocon</li>
-                        <li>Született: 1996. szeptember 17.</li>
-                        <li>Nemzetiség: francia</li>
-                        <li>Rajtszám: 31</li>
-                        <li>Születési hely: Évreux, Normandia, Franciaország</li>
-                    </ul>
-                </div>
-                <div class="card col-md-4">
-                    <img class="driver" src="kepek/versenyzok/alonso.jpg">
-                    <ul class="info">
-                        <li>Név: Fernando Alonso</li>
-                        <li>Született: 1981. július 29.</li>
-                        <li>Nemzetiség: spanyol</li>
-                        <li>Rajtszám: 14</li>
-                        <li>Születési hely: Oviedo, Spanyolország</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="card-body">
-            <div class="row">
-                <div class="card col-md-4">
-                    <h2>Scuderia AlphaTauri</h2>
-                    <img class="teampic" src="kepek/csapatok/apha  auri.jpg">
-                    <ul class="info-1">
-                        <li>Székhely: Faenza, Olaszország</li>
+                        <li>Székhely: Maranello, Olaszország</li>
                         <li>Nemzetiség: olasz</li>
-                        <li>Csapatfőnök: Franz Tost</li>
-                        <li>Kasztni: AT03</li>
+                        <li>Csapatfőnök: Mattia Binotto</li>
+                        <li>Kasztni: F1-75</li>
                     </ul>
-                </div>
-                <div class="card col-md-4">
-                    <img class="driver" src="kepek/versenyzok/gasly.jpg">
-                    <ul class="info">
-                        <li>Név: Pierre Gasly</li>
-                        <li>Született: 1996. február 7.</li>
-                        <li>Nemzetiség: frnacia</li>
-                        <li>Rajtszám: 10</li>
-                        <li>Születési hely: Rouen, Franciaország</li>
-                    </ul>
-                </div>
-                <div class="card col-md-4">
-                    <img class="driver" src="kepek/versenyzok/tsunoda.jpg">
-                    <ul class="info">
-                        <li>Név: Yuki Tsunoda</li>
-                        <li>Született: 2000. május 11.</li>
-                        <li>Nemzetiség: japán</li>
-                        <li>Rajtszám: 22</li>
-                        <li>Születési hely: Sagamihara, Kanagava, Japán</li>
-                    </ul>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="driver" src="kepek/versenyzok/leclerc.jpg">
+                        <ul class="info">
+                            <li>Név: Charles Leclerc</li>
+                            <li>Született: 1997. október 16.</li>
+                            <li>Nemzetiség: monakói</li>
+                            <li>Rajtszám: 16</li>
+                            <li>Születési hely: Monte-Carlo, Monaco</li>
+                        </ul>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="driver" src="kepek/versenyzok/sainz.jpg">
+                        <ul class="info">
+                            <li>Név: Carlos Sainz Jr.</li>
+                            <li>Született: 1994. szeptember 1.</li>
+                            <li>Nemzetiség: spanyol</li>
+                            <li>Rajtszám: 55</li>
+                            <li>Születési hely: Madrid, Spanyolország</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div>
-        <div class="card-body">
-            <div class="row">
-                <div class="card col-md-4">
-                    <h2>Aston Martin Cognizant F1 Team</h2>
-                    <img class="teampic" src="kepek/csapatok/aston.jpg">
+        <div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="card col-md-4">
+                        <h2>Oracle Red Bull Racing</h2>
+                        <img class="teampic" src="kepek/csapatok/red bull.jpg">
                     <ul class="info-1">
-                        <li>Székhely: Silverstone, Egyesült Királyság</li>
-                        <li>Nemzetiség: britt</li>
-                        <li>Csapatfőnök: Mike Krack</li>
-                        <li>Kasztni: AMR22</li>
+                        <li>Székhely: Székhely: Milton Keynes, Egyesült Királyság</li>
+                        <li>Nemzetiség: osztrák</li>
+                        <li>Csapatfőnök: Christian Horner</li>
+                        <li>Kasztni: RB18</li>
                     </ul>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="driver" src="kepek/versenyzok/verstappen.jpg">
+                        <ul class="info">
+                            <li>Név: Max Verstappen</li>
+                            <li>Született: 1997. szeptember 30.</li>
+                            <li>Nemzetiség: holland</li>
+                            <li>Rajtszám: 1 (33)</li>
+                            <li>Születési hely: Hasselt, Belgium</li>
+                        </ul>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="driver" src="kepek/versenyzok/perez.jpg">
+                        <ul class="info">
+                            <li>Név: Sergio Perrez</li>
+                            <li>Született: 1990. január 26.</li>
+                            <li>Nemzetiség: mexikói</li>
+                            <li>Rajtszám: 11</li>
+                            <li>Születési hely: Guadalajara, Mexikó</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="card col-md-4">
-                    <img class="driver" src="kepek/versenyzok/stroll.jpg">
-                    <ul class="info">
-                        <li>Név: Lance Stroll</li>
-                        <li>Született: 1998. október 29.</li>
-                        <li>Nemzetiség: kanadai</li>
-                        <li>Rajtszám: 18</li>
-                        <li>Születési hely: Montréal, Kanada</li>
-                    </ul>
+            </div>
+        </div>
+        <div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="card col-md-4">
+                        <h2>McLaren F1 Team</h2>
+                        <img class="teampic" src="kepek/csapatok/mclaren.jpg">
+                        <ul class="info-1">
+                            <li>Székhely: Woking, Egyesült Királyság</li>
+                            <li>Nemzetiség: britt</li>
+                            <li>Csapatfőnök: Zak Brown</li>
+                            <li>Kasztni: MCL 36</li>
+                        </ul>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="driver" src="kepek/versenyzok/norris.jpg">
+                        <ul class="info">
+                            <li>Név: Lando Norris</li>
+                            <li>Született: 1999. november 13.</li>
+                            <li>Nemzetiség: brit</li>
+                            <li>Rajtszám: 4</li>
+                            <li>Születési hely: Bristol, Anglia</li>
+                        </ul>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="driver" src="kepek/versenyzok/ricciardo.jpg">
+                        <ul class="info">
+                            <li>Név: Daniel Ricciardo</li>
+                            <li>Született: 1989. július 1.</li>
+                            <li>Nemzetiség: ausztrál</li>
+                            <li>Rajtszám: 3</li>
+                            <li>Születési hely: Perth, Asztrália</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="card col-md-4">
-                    <img class="driver" src="kepek/versenyzok/vettel.jpg">
-                    <ul class="info">
-                        <li>Név: Sebastian Vettel</li>
-                        <li>Született: 1987. július 3.</li>
-                        <li>Nemzetiség: német</li>
-                        <li>Rajtszám: 5</li>
-                        <li>Születési hely: Heppenheim, Németország</li>
-                    </ul>
+            </div>
+        </div>
+        <div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="card col-md-4">
+                        <h2>BWT Alpine F1 Team</h2>
+                        <img class="teampic" src="kepek/csapatok/alpine.jpg">
+                        <ul class="info-1">
+                            <li>Székhely:  Enstone, Egyesült Királyság</li>
+                            <li>Nemzetiség: francia</li>
+                            <li>Csapatfőnök: Otmar Szafnauer</li>
+                            <li>Kasztni: A522</li>
+                        </ul>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="driver" src="kepek/versenyzok/ocon.jpg">
+                        <ul class="info">
+                            <li>Név: Esteban Ocon</li>
+                            <li>Született: 1996. szeptember 17.</li>
+                            <li>Nemzetiség: francia</li>
+                            <li>Rajtszám: 31</li>
+                            <li>Születési hely: Évreux, Normandia, Franciaország</li>
+                        </ul>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="driver" src="kepek/versenyzok/alonso.jpg">
+                        <ul class="info">
+                            <li>Név: Fernando Alonso</li>
+                            <li>Született: 1981. július 29.</li>
+                            <li>Nemzetiség: spanyol</li>
+                            <li>Rajtszám: 14</li>
+                            <li>Születési hely: Oviedo, Spanyolország</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="card col-md-4">
+                        <h2>Scuderia AlphaTauri</h2>
+                        <img class="teampic" src="kepek/csapatok/apha  auri.jpg">
+                        <ul class="info-1">
+                            <li>Székhely: Faenza, Olaszország</li>
+                            <li>Nemzetiség: olasz</li>
+                            <li>Csapatfőnök: Franz Tost</li>
+                            <li>Kasztni: AT03</li>
+                        </ul>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="driver" src="kepek/versenyzok/gasly.jpg">
+                        <ul class="info">
+                            <li>Név: Pierre Gasly</li>
+                            <li>Született: 1996. február 7.</li>
+                            <li>Nemzetiség: frnacia</li>
+                            <li>Rajtszám: 10</li>
+                            <li>Születési hely: Rouen, Franciaország</li>
+                        </ul>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="driver" src="kepek/versenyzok/tsunoda.jpg">
+                        <ul class="info">
+                            <li>Név: Yuki Tsunoda</li>
+                            <li>Született: 2000. május 11.</li>
+                            <li>Nemzetiség: japán</li>
+                            <li>Rajtszám: 22</li>
+                            <li>Születési hely: Sagamihara, Kanagava, Japán</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="card col-md-4">
+                        <h2>Aston Martin Cognizant F1 Team</h2>
+                        <img class="teampic" src="kepek/csapatok/aston.jpg">
+                        <ul class="info-1">
+                            <li>Székhely: Silverstone, Egyesült Királyság</li>
+                            <li>Nemzetiség: britt</li>
+                            <li>Csapatfőnök: Mike Krack</li>
+                            <li>Kasztni: AMR22</li>
+                        </ul>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="driver" src="kepek/versenyzok/stroll.jpg">
+                        <ul class="info">
+                            <li>Név: Lance Stroll</li>
+                            <li>Született: 1998. október 29.</li>
+                            <li>Nemzetiség: kanadai</li>
+                            <li>Rajtszám: 18</li>
+                            <li>Születési hely: Montréal, Kanada</li>
+                        </ul>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="driver" src="kepek/versenyzok/vettel.jpg">
+                        <ul class="info">
+                            <li>Név: Sebastian Vettel</li>
+                            <li>Született: 1987. július 3.</li>
+                            <li>Nemzetiség: német</li>
+                            <li>Rajtszám: 5</li>
+                            <li>Születési hely: Heppenheim, Németország</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="card col-md-4">
+                        <h2>Williams Racing</h2>
+                        <img class="teampic" src="kepek/csapatok/wwilliams.jpg">
+                        <ul class="info-1">
+                            <li>Székhely: Oxfordshire, Egyesült Királyság</li>
+                            <li>Nemzetiség: britt</li>
+                            <li>Csapatfőnök: Jost Capito</li>
+                            <li>Kasztni: FW44</li>
+                        </ul>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="driver" src="kepek/versenyzok/albon.jpg">
+                        <ul class="info">
+                            <li>Név: Alexander Albon</li>
+                            <li>Született: 1996. március 23.</li>
+                            <li>Nemzetiség: thai</li>
+                            <li>Rajtszám: 23</li>
+                            <li>Születési hely: London, Anglia</li>
+                        </ul>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="driver" src="kepek/versenyzok/latifi.jpg">
+                        <ul class="info">
+                            <li>Név: Nicholas Latifi</li>
+                            <li>Született: 1995. június 29.</li>
+                            <li>Nemzetiség: kanadai</li>
+                            <li>Rajtszám: 6</li>
+                            <li>Születési hely: Toronto, Kanada</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="card col-md-4">
+                        <h2>Alfa Romeo F1 Team Orlen</h2>
+                        <img class="teampic" src="kepek/csapatok/alfa romeo.jpg">
+                        <ul class="info-1">
+                            <li>Székhely: Hinwill, Svájc</li>
+                            <li>Nemzetiség: olasz-svájc</li>
+                            <li>Csapatfőnök: Frédéric Vasseur</li>
+                            <li>Kasztni: C40</li>
+                        </ul>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="driver" src="kepek/versenyzok/bottas.jpg">
+                        <ul class="info">
+                            <li>Név: Valtteri Bottas</li>
+                            <li>Született: 1989. augusztus 28.</li>
+                            <li>Nemzetiség: finn</li>
+                            <li>Rajtszám: 77</li>
+                            <li>Születési hely: Nastola, Finnország</li>
+                        </ul>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="driver" src="kepek/versenyzok/zhou.jpg">
+                        <ul class="info">
+                            <li>Név: Zhou Guanyu</li>
+                            <li>Született: 1999. május 30.</li>
+                            <li>Nemzetiség: kínai</li>
+                            <li>Rajtszám: 24</li>
+                            <li>Születési hely: Sanghaj, Kína</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="card col-md-4">
+                        <h2>Haas F1 Team</h2>
+                        <img class="teampic" src="kepek/csapatok/Haas-2022-F1-car-3.jpg">
+                        <ul class="info-1">
+                            <li>Székhely: Kannapolis, Amerika (Fő), Banbury, Egyesült Királyság (Európai)</li>
+                            <li>Nemzetiség: amerikai</li>
+                            <li>Csapatfőnök: Günther Steiner</li>
+                            <li>Kasztni: VF-22</li>
+                        </ul>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="driver" src="kepek/versenyzok/schumacher.jpg">
+                        <ul class="info">
+                            <li>Név: Mick Schumacher</li>
+                            <li>Született: 1999. március 22.</li>
+                            <li>Nemzetiség: német</li>
+                            <li>Rajtszám: 47</li>
+                            <li>Születési hely: Vufflens-le-Château, Vaud kanton, Svájc</li>
+                        </ul>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="driver" src="kepek/versenyzok/magnussen.jpg">
+                        <ul class="info">
+                            <li>Név: Kevin Magnussen</li>
+                            <li>Született: 1995. október 5.</li>
+                            <li>Nemzetiség: dán</li>
+                            <li>Rajtszám: 20</li>
+                            <li>Születési hely: Roskilde, Dánia</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div>
-        <div class="card-body">
-            <div class="row">
-                <div class="card col-md-4">
-                    <h2>Williams Racing</h2>
-                    <img class="teampic" src="kepek/csapatok/wwilliams.jpg">
-                    <ul class="info-1">
-                        <li>Székhely: Oxfordshire, Egyesült Királyság</li>
-                        <li>Nemzetiség: britt</li>
-                        <li>Csapatfőnök: Jost Capito</li>
-                        <li>Kasztni: FW44</li>
-                    </ul>
-                </div>
-                <div class="card col-md-4">
-                    <img class="driver" src="kepek/versenyzok/albon.jpg">
-                    <ul class="info">
-                        <li>Név: Alexander Albon</li>
-                        <li>Született: 1996. március 23.</li>
-                        <li>Nemzetiség: thai</li>
-                        <li>Rajtszám: 23</li>
-                        <li>Születési hely: London, Anglia</li>
-                    </ul>
-                </div>
-                <div class="card col-md-4">
-                    <img class="driver" src="kepek/versenyzok/latifi.jpg">
-                    <ul class="info">
-                        <li>Név: Nicholas Latifi</li>
-                        <li>Született: 1995. június 29.</li>
-                        <li>Nemzetiség: kanadai</li>
-                        <li>Rajtszám: 6</li>
-                        <li>Születési hely: Toronto, Kanada</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="card-body">
-            <div class="row">
-                <div class="card col-md-4">
-                    <h2>Alfa Romeo F1 Team Orlen</h2>
-                    <img class="teampic" src="kepek/csapatok/alfa romeo.jpg">
-                    <ul class="info-1">
-                        <li>Székhely: Hinwill, Svájc</li>
-                        <li>Nemzetiség: olasz-svájc</li>
-                        <li>Csapatfőnök: Frédéric Vasseur</li>
-                        <li>Kasztni: C40</li>
-                    </ul>
-                </div>
-                <div class="card col-md-4">
-                    <img class="driver" src="kepek/versenyzok/bottas.jpg">
-                    <ul class="info">
-                        <li>Név: Valtteri Bottas</li>
-                        <li>Született: 1989. augusztus 28.</li>
-                        <li>Nemzetiség: finn</li>
-                        <li>Rajtszám: 77</li>
-                        <li>Születési hely: Nastola, Finnország</li>
-                    </ul>
-                </div>
-                <div class="card col-md-4">
-                    <img class="driver" src="kepek/versenyzok/zhou.jpg">
-                    <ul class="info">
-                        <li>Név: Zhou Guanyu</li>
-                        <li>Született: 1999. május 30.</li>
-                        <li>Nemzetiség: kínai</li>
-                        <li>Rajtszám: 24</li>
-                        <li>Születési hely: Sanghaj, Kína</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="card-body">
-            <div class="row">
-                <div class="card col-md-4">
-                    <h2>Haas F1 Team</h2>
-                    <img class="teampic" src="kepek/csapatok/Haas-2022-F1-car-3.jpg">
-                    <ul class="info-1">
-                        <li>Székhely: Kannapolis, Amerika (Fő), Banbury, Egyesült Királyság (Európai)</li>
-                        <li>Nemzetiség: amerikai</li>
-                        <li>Csapatfőnök: Günther Steiner</li>
-                        <li>Kasztni: VF-22</li>
-                    </ul>
-                </div>
-                <div class="card col-md-4">
-                    <img class="driver" src="kepek/versenyzok/schumacher.jpg">
-                    <ul class="info">
-                        <li>Név: Mick Schumacher</li>
-                        <li>Született: 1999. március 22.</li>
-                        <li>Nemzetiség: német</li>
-                        <li>Rajtszám: 47</li>
-                        <li>Születési hely: Vufflens-le-Château, Vaud kanton, Svájc</li>
-                    </ul>
-                </div>
-                <div class="card col-md-4">
-                    <img class="driver" src="kepek/versenyzok/magnussen.jpg">
-                    <ul class="info">
-                        <li>Név: Kevin Magnussen</li>
-                        <li>Született: 1995. október 5.</li>
-                        <li>Nemzetiség: dán</li>
-                        <li>Rajtszám: 20</li>
-                        <li>Születési hely: Roskilde, Dánia</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="navbar.js"></script>
+</body>
 </html>

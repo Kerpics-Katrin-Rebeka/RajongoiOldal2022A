@@ -8,23 +8,22 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Formula-1</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container"><a class="navbar-brand logo text-white" href="index.html"><i class="fa fa-graduation-cap fa-lg mr-2"></i><img src="kepek/egyebkepek/F1-LOGO.png" width="150px" float="right"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="nvbCollapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active pl-1"><a class="nav-link" href="index.html"><i class="fa fa-home fa-fw mr-1"></i>Főoldal</a></li>
-                    <li class="nav-item pl-1"><a class="nav-link" href="versenyzokEsCsapatok.html"><i class="fa fa-th-list fa-fw mr-1"></i>Csapatok és versenyzők</a></li>
-                    <li class="nav-item pl-1"><a class="nav-link" href="versenynaptar.html"><i class="fa fa-info-circle fa-fw mr-1"></i>Versenynaptár</a></li>
-                    <li class="nav-item pl-1"><a class="nav-link" href="kviz.html"><i class="fa fa-phone fa-fw fa-rotate-180 mr-1"></i>Kvíz</a></li>
-                    <li class="nav-item pl-1"><a class="nav-link" href="nevjegy.html"><i class="fa fa-user-plus fa-fw mr-1"></i>Névjegy</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+  <div class="topnav" id="myTopnav">
+    <a class="logo" href="index.html"><img class="nav-pic" src="kepek/egyebkepek/F1-LOGO.png" width="150px" float="right"></a>
+    <a href="index.html" class="active">Főoldal</a>
+    <a class="bish" href="versenyzokEsCsapatok.html">Csapatok és versenyzők</a>
+    <a class="naptar" href="versenynaptar.html">Versenynaptár</a>
+    <a href="kviz.html">Kvíz</a>
+    <a href="nevjegy.html">Névjegy</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+</div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <div class="yehet">
         <h1>Formula-1</h1>
@@ -33,6 +32,77 @@
         <p class="white">Az autók a körülbelül 1000 lóerős (a motor kb 820-840 lóerős, plusz az elektromos motor által fejlesztett 160 lóerő), 14 000 percenkénti fordulatra korlátozott V6-os 1,6 literes turbómotorok (2014-től V6-os turbómotor, korábban V8-as) segítségével elérhetik a 380 km/órás sebességet, egyes kanyarokban 6-7 g-s erő is nehezülhet a versenyzőkre. A sportágban számos technikai újítás jelent meg története során. Az autókban a motor teljesítménye mellett sokat fejlődött az elektronika, az aerodinamika, a felfüggesztés és a gumiabroncsok.</p>
         <p class="red">A Formula–1 a világ egyik legdrágább sportága, a csapatok költségeit nagyrészt szponzorok fedezik. A legnagyobb befolyással a Formula–1-ben sokáig a brit Bernie Ecclestone, a Formula One Management (FOM) elnöke rendelkezett. 2017-ben viszont új tulajdonba került a sportág, a Liberty Media rengeteg változtatást hozhat és ígér az autósportnak.</p>
     </div>
+    <div class="slideshow-container">
+        <div class="mySlides">
+          <div class="numbertext">1 / 9</div>
+          <img src="kepek/history/1950.jpg" style="width:100%">
+          <div class="text">1950</div>
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">2 / 9</div>
+          <img src="kepek/history/1960.jpg" style="width:100%">
+          <div class="text">1960</div>
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">3 / 9</div>
+          <img src="kepek/history/1970.jpg" style="width:100%">
+          <div class="text">1970</div>
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 9</div>
+          <img src="kepek/history/1980.jpeg" style="width:100%">
+          <div class="text">1980</div>
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">5 / 9</div>
+          <img src="kepek/history/1990.jpg" style="width:100%">
+          <div class="text">1990</div>
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">6 / 9</div>
+          <img src="kepek/history/2000.jpg" style="width:100%">
+          <div class="text">2000</div>
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">7 / 9</div>
+          <img src="kepek/history/2010.jpg" style="width:100%">
+          <div class="text">2010</div>
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">8 / 9</div>
+          <img src="kepek/history/2020.jpg" style="width:100%">
+          <div class="text">2020</div>
+        </div>
+        
+        <div class="mySlides">
+          <div class="numbertext">9 / 9</div>
+          <img src="kepek/history/2022.jpg" style="width:100%">
+          <div class="text">2022</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
+      </div>
+    <script src="index.js"></script>
+    <script src="navbar.js"></script>
 </body>
 
 </html>

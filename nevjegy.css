@@ -1,31 +1,55 @@
 body{
     background-image: url(kepek/hatterek/220021-bahrain-gp-2022-friday.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-attachment: fixed;
 }
 
 .display-3{
     text-align: center;
     font-weight: bold;
+    
 }
 
 fieldset{
     padding-top: 30px;
     padding-bottom: 20px;
     background-color: white;
-    width: 1850px;
+    width: 100%;
     border-top: 10px solid; color: black;
     border-right: 10px solid; color: black;
     border-bottom: 2px solid; color: black;
     border-left: 2px solid; color: black;
     border-top-right-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+        0%   {background-color:red}
+        10%  {background-color:orangered}
+        20%  {background-color:yellow}
+        30%  {background-color:lime}
+        40%  {background-color:turquoise}
+        40%  {background-color:cyan}
+        50%  {background-color:cornflowerblue}
+        80%  {background-color:blue}
+        60%  {background-color:purple}
+        70%  {background-color:crimson}
+        100% {background-color:red}
 }
 
 .row{
     padding-top: 30px;
     column-gap: 40px;
     row-gap: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.idk {
+    margin-left: 20px;
 }
 
 .nevjegyek{
@@ -34,17 +58,18 @@ fieldset{
 }
 
 .card{
-    width: 600px;
-    height: 750px;
+    width: 610px;
+    height: 610px;
     border: 2px solid; color: black;
     border-radius: 30px;
     background-color: white;
     transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
 }
 
 .card:hover{
-    width: 570px;
-    height: 690px;
+    width: 620px;
+    height: 620px;
     border: 4px solid; color: black;
 }
 
@@ -53,37 +78,44 @@ fieldset{
     padding-left: 10px;
     border-bottom: 3px solid; color: black;
     font-weight: bold;
+    text-shadow: 0 0 3px greenyellow;
 }
 
 
 .card-text{
-    padding-left: 20px;
-    padding-top: 10px;
     font-weight: bold;
+    text-shadow: 0 0 3px blue;
 }
 
-ol{
-    list-style-type: circle;
+h1 {
+    font-weight: bold;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; 
 }
 
-.yeah{
-    padding-bottom: 5px;
+h2, h3 {
+    font-weight: bold;
+    text-shadow: 0 0 3px blue;
 }
-
 
 .card-pic {
-    width: 470px;
-    height: 470px;
+    width: 100%;
+    height: 100%;
     align-self: center;
-    border: 3px solid; color: black;
     border-radius: 5px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 80px;
 }
 
 .card-pic-2 {
-    height: 550px;
+    width: 100%;
+    height: 100%;
     align-self: center;
-    border: 3px solid; color: black;
     border-radius: 5px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 180px;
 }
 
 @media screen and (max-width: 900px) {
@@ -97,4 +129,51 @@ ol{
     .card { 
         width: 100%;
     }
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+    align-self: center; 
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+  
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+  
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+  
+
+.flip-card-back {
+    background-color: aquamarine;
+    color: black;
+    transform: rotateY(180deg);
 }
