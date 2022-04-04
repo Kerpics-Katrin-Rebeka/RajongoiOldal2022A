@@ -81,7 +81,7 @@ function showResults(){
         }
       });
   
-      resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
+      resultsContainer.innerHTML = `${numCorrect}/${myQuestions.length}`;
 }
   
 function showSlide(n) {
@@ -117,7 +117,7 @@ function showSlide(n) {
     const submitButton = document.getElementById('submit');
     const myQuestions = [
         {
-          question: "1. Kinek a rajtszáma a 16-os szám?",
+          question: "1/10. Kinek a rajtszáma a 16-os szám?",
           answers: {
             a: "Yuki Tsunoda",
             b: "Lance Stroll",
@@ -126,7 +126,7 @@ function showSlide(n) {
           correctAnswer: "c"
         },
         {
-          question: "2. Ki nem britt az alábbi versenyzők közül?",
+          question: "2/10. Ki nem britt az alábbi versenyzők közül?",
           answers: {
             a: "Lando Norris",
             b: "Daniel Ricciardo",
@@ -136,7 +136,7 @@ function showSlide(n) {
           correctAnswer: "b"
         },
         {
-          question: "3. Ki a Williams versenyzője az alábbiak közül?",
+          question: "3/10. Ki a Williams versenyzője az alábbiak közül?",
           answers: {
             a: "Valtteri Bottas",
             b: "Pierre Gasly",
@@ -146,7 +146,7 @@ function showSlide(n) {
           correctAnswer: "d"
         },
         {
-            question: "4. Ki a legalacsonyabb pilóta az alábbiak közül?",
+            question: "4/10. Ki a legalacsonyabb pilóta az alábbiak közül?",
             answers: {
               a: "Yuki Tsunoda",
               b: "Lando Norris",
@@ -155,7 +155,7 @@ function showSlide(n) {
             correctAnswer: "a"
         },
         {
-            question: "5. Melyik versenyző született 1999-ben az alábbi versenyzők közül?",
+            question: "5/10. Melyik versenyző született 1999-ben az alábbi versenyzők közül?",
             answers: {
               a: "Nicholas Latifi",
               b: "Guanyu Zhou",
@@ -164,7 +164,7 @@ function showSlide(n) {
             correctAnswer: "b"
         },
         {
-            question: "6. Melyik versenyző francia származású az alábbiak közül?",
+            question: "6/10. Melyik versenyző francia származású az alábbiak közül?",
             answers: {
               a: "Esteban Ocon",
               b: "Sebastian Vettel",
@@ -174,7 +174,7 @@ function showSlide(n) {
             correctAnswer: "a"
         },
         {
-            question: "7. Ki a legidősebb az alábbiak közül?",
+            question: "7/10. Ki a legidősebb az alábbiak közül?",
             answers: {
               a: "Sergio Perez",
               b: "Kevin Magnussen",
@@ -184,7 +184,7 @@ function showSlide(n) {
             correctAnswer: "d"
         },
         {
-          question: "8. Melyik versenyző nem egy korábbi F1-es versenyző fia?",
+          question: "8/10. Melyik versenyző nem egy korábbi F1-es versenyző fia?",
           answers: {
             a: "Mick Schumacher",
             b: "Max Verstappen",
@@ -193,7 +193,7 @@ function showSlide(n) {
           correctAnswer: "c"
         },
         {
-          question: "9. Melyik pilóta európai származású az alábbiak közül?",
+          question: "9/10. Melyik pilóta európai származású az alábbiak közül?",
           answers: {
             a: "Lance Stroll",
             b: "Kevin Magnussen",
@@ -203,7 +203,7 @@ function showSlide(n) {
           correctAnswer: "b"
         },
         {
-          question: "10. Melyik pilóta nem az Alpha Tauri versenyzője az alábbiak közül?",
+          question: "10/10. Melyik pilóta nem az Alpha Tauri versenyzője az alábbiak közül?",
           answers: {
             a: "Yuki Tsunoda",
             b: "Pierre Gasly",
