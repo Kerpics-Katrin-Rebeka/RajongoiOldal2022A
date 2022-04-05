@@ -20,7 +20,7 @@ h1{
   opacity: 0.9;
 }
 .question{
-  font-size: 45px;
+  font-size: 35px;
   margin-bottom: 10px;
   font-weight: bold;
   color: black;
@@ -78,6 +78,18 @@ button:hover{
     border-top: 5px solid; color: red;
     border-right: 5px solid; color: red;
     border-top-right-radius: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+  .yehet {
+    height: 600px
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .quiz-container {
+    height: 400px
+  }
 }
 
 @font-face {

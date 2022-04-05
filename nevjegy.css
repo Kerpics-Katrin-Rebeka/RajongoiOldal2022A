@@ -125,9 +125,15 @@ h2, h3 {
 }
 
 @media screen and (max-width: 900px) {
-    fieldset,
-    .card { 
+    fieldset { 
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .card { 
+        width: 400px;
+        height: 400px;
     }
 }
 
