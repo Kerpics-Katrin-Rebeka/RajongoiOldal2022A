@@ -88,3 +88,40 @@ li {
     padding-top: 15px;
     font-size: 20px;
 }
+
+@media screen and (max-width: 900px) {
+    .card { 
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .card:hover { 
+        width: 410px;
+        height: 410px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .driver { 
+        width: 90%;
+        height: 90%;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .info-1,
+    .info-2 { 
+        padding-top: 5px;
+        font-size: 14px
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .info { 
+        padding-top: 5px;
+        font-size: 10px
+    }
+}
