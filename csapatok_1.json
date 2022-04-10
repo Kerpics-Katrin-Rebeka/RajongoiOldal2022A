@@ -1,0 +1,18 @@
+[
+  {
+    "_id": 1,
+    "basedIn": "Olaszország"
+  },
+  {
+    "_id": 2,
+    "basedIn": "Egyesült Királyság"
+  },
+  {
+    "_id": 3,
+    "basedIn": "Svájc"
+  },
+  {
+    "_id": 4,
+    "basedIn": "Amerika"
+  }
+]
