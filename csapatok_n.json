@@ -3,100 +3,100 @@
     "_id": 1,
     "teamName": "Scuderia Ferrari",
     "description": "Az olasz Ferrari a Forma-1 történelmének legfontosabb csapata, kettő kivételével minden szezonban részt vettek és 16 konstruktori világ bajnoki címük van.",
-    "constructors'Championship": true,
+    "wccWon": true,
     "racesEntered": 1034,
     "basedIn": 1,
     "foundationDate": "1929-11-16",
-    "teampictureUrl": "https://imgur.com/OFWR3gE"
+    "teampictureUrl": "https://imgur.com/ferrari.jpg"
   },
   {
     "_id": 2,
     "teamName": "Oracle Red Bull Racing",
     "description": "A Red Bull Racing a Red Bull energiaital-gyár tulajdonában álló, osztrák Formula–1-es csapat.",
-    "constructors'Championship": true,
+    "wwcWon": true,
     "racesEntered": 328,
     "basedIn": 2,
     "foundationDate": "1996-12-19",
-    "teampictureUrl": "https://imgur.com/Rfg1YIL"
+    "teampictureUrl": "https://imgur.com/rb.jpg"
   },
   {
     "_id": 3,
     "teamName": "Mercedes-AMG Petronas F1 Team",
     "description": "A Mercedes egy német Formula–1-es csapat, ami 2010 óta a Brawn GP utódjaként vesz részt a Forma-1-ben.",
-    "constructors'Championship": true,
+    "wwcWon": true,
     "racesEntered": 251,
     "basedIn": 2,
     "foundationDate": "1954-01-17",
-    "teampictureUrl": "https://imgur.com/Qh3zShn"
+    "teampictureUrl": "https://imgur.com/mercedes.jpg"
   },
   {
     "_id": 4,
     "teamName": "McLaren F1 Team",
     "description": "A McLaren a Forma–1 második legsikeresebb csapata 12 egyéni és 8 konstruktori-világbajnoki címével a Ferrari mögött.",
-    "constructors'Championship": true,
+    "wwcWon": true,
     "racesEntered": 908,
     "basedIn": 2,
     "foundationDate": "1985-12-2",
-    "teampictureUrl": "https://imgur.com/tFzaClM"
+    "teampictureUrl": "https://imgur.com/mclaren.jpg"
   },
   {
     "_id": 5,
     "teamName": "BWT Alpine F1 Team",
     "description": "A csapat a 2021-es Formula–1 világbajnokságon debütált a Renault-ról az Alpine-re történő átrendeződés eredményeként, az Automobiles Alpine márka népszerűsítése érdekében.",
-    "constructors'Championship": false,
+    "wwcWon": false,
     "racesEntered": 24,
     "basedIn": 2,
     "foundationDate": "2020-06-22",
-    "teampictureUrl": "https://imgur.com/MI0YHxQ"
+    "teampictureUrl": "https://imgur.com/alpine.jpg"
   },
   {
     "_id": 6,
     "teamName": "Scuderia AlphaTauri",
     "description": "A Scuderia AlphaTauri, rövidítve AlphaTauri egy olasz Formula–1-es csapat, amelyet az osztrák Red Bull italvállalat alapított a Scuderia Toro Rosso jogutódjaként.",
-    "constructors'Championship": false,
+    "wwcWon": false,
     "racesEntered": 41,
     "basedIn": 1,
     "foundationDate": "2016-08-14",
-    "teampictureUrl": "https://imgur.com/7GubKJF"
+    "teampictureUrl": "https://imgur.com/alpha.jpg"
   },
   {
     "_id": 7,
     "teamName": "Aston Martin Cognizant F1 Team",
     "description": "Az Aston Martin egy brit autógyártó, amely különféle formákban vett részt a Formula–1-ben. A vállalat először az 1959-es szezonban vett részt először, ahol saját motorral debütáltak a DBR4 modelljével. Mivel nem sikerült eredményeket szerezniük, így 1960-ban kiszálltak a sorozatból. 2021-ben tértek vissza az F1-be, a Racing Point F1 Team jogutódjaként.",
-    "constructors'Championship": false,
+    "wwcWon": false,
     "racesEntered": 30,
     "basedIn": 2,
     "foundationDate": "1959-05-31",
-    "teampictureUrl": "https://imgur.com/4D2p29b"
+    "teampictureUrl": "https://imgur.com/aston.jpg"
   },
   {
     "_id": 8,
     "teamName": "Williams Racing",
     "description": "A Williams a 7 egyéni és 9 konstruktori világbajnoki címével a Formula–1 egyik legsikeresebb csapata.",
-    "constructors'Championship": true,
+    "wwcWon": true,
     "racesEntered": 772,
     "basedIn": 2,
     "foundationDate": "1977-04-16",
-    "teampictureUrl": "https://imgur.com/HSYVamj"
+    "teampictureUrl": "https://imgur.com/williams.jpg"
   },
   {
     "_id": 9,
     "teamName": "Alfa Romeo F1 Team Orlen",
     "description": "Az Alfa Romeo Racing egy svájci-olasz Formula-1-es versenycsapat, mely ezidáig három érában szerepelt a sportág történetében. Jelenleg önállóan, a Sauber istálló 2018-as átvételével vannak jelen.",
-    "constructors'Championship": false,
+    "wwcWon": false,
     "racesEntered": 172,
     "basedIn": 3,
     "foundationDate": "2015-06-24",
-    "teampictureUrl": "https://imgur.com/x7WNd2F"
+    "teampictureUrl": "https://imgur.com/alfa.jpg"
   },
   {
     "_id": 10,
     "teamName": "Haas F1 Team",
     "description": "A Haas F1 Team amerikai Formula–1-es csapat, amely 2016-tól szerepel a sorozatban. Az istálló alapítója az amerikai üzletember, Gene Haas, aki a NASCAR-ban az egyik csapat társtulajdonosa.",
-    "constructors'Championship": false,
+    "wwcWon": false,
     "racesEntered": 124,
     "basedIn": 4,
     "foundationDate": "1999-07-13",
-    "teampictureUrl": "https://imgur.com/XBWLXb8"
+    "teampictureUrl": "https://imgur.com/haas.jpg"
   }
 ]
